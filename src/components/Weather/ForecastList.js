@@ -1,6 +1,6 @@
 import React from "react";
 import { Ionicons } from "@expo/vector-icons";
-import { ScrollView, Text, View } from "react-native";
+import { Text, View } from "react-native";
 import handlerDate from "../../../utils/date";
 import { styles } from "../../style/forecastStyles";
 

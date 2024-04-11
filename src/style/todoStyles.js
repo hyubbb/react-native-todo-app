@@ -14,7 +14,7 @@ export const styles = StyleSheet.create({
     color: "#fff",
     fontWeight: 600,
     fontSize: 45,
-    fontFamily: "Harmond",
+    fontFamily: "z",
   },
   input: {
     backgroundColor: "#fff",
