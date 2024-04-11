@@ -9,6 +9,7 @@ export default function App() {
   const loadFonts = async () => {
     await Font.loadAsync({
       Harmond: require("./assets/fonts/Harmond.otf"),
+      PretendardRegular: require("./assets/fonts/PretendardRegular.otf"),
     });
   };
 

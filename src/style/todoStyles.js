@@ -1,6 +1,5 @@
 import { StyleSheet } from "react-native";
 import { theme } from "../../utils/colors";
-
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -28,7 +27,6 @@ export const styles = StyleSheet.create({
   editing: {
     borderRadius: 30,
     width: 140,
-    // fontSize: 18,
   },
   scrollView: {},
   btnBox: {

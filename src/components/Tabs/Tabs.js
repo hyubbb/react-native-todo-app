@@ -6,22 +6,6 @@ import todoIndex from "../Todo/TodoIndex";
 import { FontAwesome6, Feather } from "@expo/vector-icons";
 import Weather from "../Weather/Weather";
 
-function HomeScreen() {
-  return (
-    <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-      <Text>Home!</Text>
-    </View>
-  );
-}
-
-function SettingsScreen() {
-  return (
-    <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-      <Text>Settings!</Text>
-    </View>
-  );
-}
-
 const Tab = createBottomTabNavigator();
 
 function Tabs() {
@@ -41,7 +25,7 @@ function Tabs() {
         }}
       >
         <Tab.Screen
-          name='Home'
+          name='Weather'
           component={Weather}
           options={{
             tabBarIcon: ({ color }) => (
