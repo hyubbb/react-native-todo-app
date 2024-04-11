@@ -62,7 +62,6 @@ export default todoIndex = () => {
       return Object.fromEntries(sortedEntries);
     };
 
-    // complete와 unComplete 객체를 키 값에 따라 정렬
     const sortedComplete = sortObjectByKeys(complete);
     const sortedUnComplete = sortObjectByKeys(unComplete);
 
