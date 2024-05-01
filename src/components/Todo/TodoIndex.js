@@ -155,7 +155,7 @@ export default todoIndex = () => {
       style={{
         backgroundColor: "black",
         flex: 1,
-        padding: 15,
+        paddingHorizontal: 15,
       }}
     >
       <TodoHeader saveWorking={saveWorking} working={working} />

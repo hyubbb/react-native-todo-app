@@ -1,5 +1,6 @@
 import { StyleSheet } from "react-native";
 import { theme } from "../../utils/colors";
+const FONT = "PretendardRegular";
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -8,13 +9,13 @@ export const styles = StyleSheet.create({
   header: {
     justifyContent: "space-between",
     flexDirection: "row",
-    marginTop: 100,
+    marginTop: 60,
   },
   btnText: {
     color: "#fff",
     fontWeight: 600,
     fontSize: 45,
-    fontFamily: "z",
+    fontFamily: FONT,
   },
   input: {
     backgroundColor: "#fff",

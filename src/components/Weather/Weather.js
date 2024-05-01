@@ -52,6 +52,7 @@ export default Weather = () => {
 
     const data = await response.json();
     const { daily, current } = data;
+    console.log(current);
     const { dt: todayDate, temp } = current;
     const currentDateTime = handlerDate(todayDate);
     const todayTemp = daily[0].temp;
